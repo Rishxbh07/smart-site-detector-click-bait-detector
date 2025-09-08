@@ -1,0 +1,20 @@
+[
+  {
+    "domain": "ilovepdf.com",
+    "rating": "green",
+    "category": "pdf-tools",
+    "recommendation": "This is a trusted free tool."
+  },
+  {
+    "domain": "canva.com",
+    "rating": "yellow",
+    "category": "design-tools",
+    "recommendation": "Offers a great free plan but requires login and has premium features."
+  },
+  {
+    "domain": "wps-pdf.com",
+    "rating": "red",
+    "category": "pdf-tools",
+    "recommendation": "This site often asks for payment at the final step."
+  }
+]

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Site Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>🛡️ Smart Site Detector</h1>
+    <div class="subtitle">Protecting you from fake-free sites</div>
+  </div>
+  
+  <div class="content">
+    <div id="loading-state" class="loading">
+      <div class="spinner"></div>
+      <div>Analyzing site...</div>
+    </div>
+    
+    <div id="site-content" style="display: none;" class="fade-in">
+      <div class="site-info">
+        <div class="domain-name" id="site-domain">domain.com</div>
+        
+        <div class="status-indicator">
+          <div id="status-dot" class="status-dot unknown"></div>
+          <div id="status-text" class="status-text">Checking...</div>
+        </div>
+        
+        <div id="recommendation" class="recommendation unknown">
+          Loading site information...
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <button id="report-btn" class="report-btn">📝 Report This Site</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
