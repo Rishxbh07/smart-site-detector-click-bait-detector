@@ -1,0 +1,15 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Node (if you ever add node stuff)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
